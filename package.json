@@ -1,0 +1,20 @@
+{
+  "name": "bluesky-did-registration",
+  "version": "1.0.0",
+  "description": "Register DID with Bluesky PLC Directory",
+  "main": "dist/registerDID.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/registerDID.ts"
+  },
+  "dependencies": {
+    "@atproto/crypto": "^0.3.0",
+    "@atproto/identity": "^0.3.0",
+    "uint8arrays": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
